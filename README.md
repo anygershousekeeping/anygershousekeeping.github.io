@@ -1,5 +1,7 @@
 # AnyGer's Housekeeping Website
 
+**Live site:** https://anygershousekeeping.github.io
+
 A fast, accessible, mobile-first marketing website for **AnyGer's Housekeeping**, a family-owned cleaning business in Redmond, Washington.
 
 ![Homepage preview](docs/screenshot.png)
@@ -62,7 +64,7 @@ Then open http://localhost:8000. Stop with `Ctrl+C`.
 
 - **Testimonials:** real reviews, used with the customers' permission and attributed by first name and last initial. To add one, copy a `<li class="quote">` block in the Reviews section of `index.html` (instructions are in a comment there). Only use a customer's exact words, never invented ones.
 - **Colors and sizes:** change the variables at the top of `css/styles.css`.
-- **Site address:** if the URL changes (renamed repo or custom domain), update it in `index.html` (canonical, Open Graph, JSON-LD), `sitemap.xml`, and `robots.txt`.
+- **Site address:** if the URL changes (for example, a custom domain), update it in `index.html` (canonical, Open Graph, JSON-LD), `sitemap.xml`, and `robots.txt`.
 
 ## Deployment
 
